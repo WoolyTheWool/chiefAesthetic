@@ -1,6 +1,9 @@
 # _C h i e f   A e s t h e t i c_
  
  _C h i e f   A e s t h e t i c_ - Chief drives through the sunset of MeatTopia City
+
+## How To Use
+click on the `index.html` file. 
 ***
 [The ChiefToonz Playlist](https://www.youtube.com/playlist?list=PLX2PCSmGRqPaOw5PL4mPdj4YdLacA_mGS "ChiefToonz on Youtube")
 
