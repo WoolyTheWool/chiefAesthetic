@@ -1,0 +1,129 @@
+body {
+	margin: 0px;
+	background-color: #000;
+	overflow: hidden;
+}
+.screen-error-message {
+	width: 100%;
+	height: 100vh;
+	background-color: #000;
+	color: #FFF;
+	position: absolute;
+	top: 0px;
+	font-family: "Arial", "Helvetica", sans-serif;
+	text-align: center;
+	font-size: 5vw;
+	margin: 0px;
+	display: none;
+}
+.game {
+	width: 640px;
+	height: 480px;
+	background-color: #000;
+	margin: auto;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	top: 0px;
+	right: 0px;
+	overflow: hidden;
+}
+#sky { 
+	width: 640px;
+	height: 480px;
+	background-image: url("sky.svg");
+}
+#beach {
+	width: 2560px;
+	height: 144px;
+	background-image: url("beach.svg");
+	position: absolute;
+	left: 0px;
+	top: 50px;
+}
+#road-1 {
+	width: 1280px;
+	height: 224px;
+	background-image: url("road.svg");
+	position: absolute;
+	left: 0px;
+	top: 130px;
+}
+#traffic-car {
+	width: 345px;
+	height: 155px;
+	position: absolute;
+	left: 640px;
+	top: 144px;
+}
+#road-2 {
+	width: 1280px;
+	height: 224px;
+	background-image: url("road.svg");
+	position: absolute;
+	left: 0px;
+	top: 284px;
+}
+#chief-car {
+	width: 352px;
+	height: 212px;
+	background-image: url("chiefCar.svg");
+	background-position: 0px 0px;
+	position: absolute;
+	left: 144px;
+	top: 274px;
+}
+#now-playing-text {
+	width: 192px;
+	height: 16px;
+	background-image: url("nowPlayingText.svg");
+	position: absolute;
+	left: 8px;
+	top: 8px;
+	-webkit-mask-image: linear-gradient(transparent, transparent);
+	mask-image: linear-gradient(transparent, transparent);
+}
+.vhs-overlay {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+#static {
+	width: 100%;
+	height: 100%;
+	background-image: url("staticOverlay.png");
+	background-position: 0px 0px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+#scanlines {
+	width: 100%;
+	height: 100%;
+	background-image: url("scanlinesOverlay.png");
+	background-position: 0px 0px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+.start {
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.start-button, .start-button button {
+	width: 64px;
+	height: 64px;
+	padding: 0px;
+	background-color: transparent;
+	border: none;
+	background-image: url("playButton.svg");
+}
